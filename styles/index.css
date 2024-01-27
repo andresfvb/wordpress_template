@@ -1,0 +1,192 @@
+header{
+  position: relative;
+  z-index: 2;
+}
+footer{
+  background: #16168E;
+}
+.position-content{
+  position: absolute;
+  top: 0;
+  z-index: 1;height: auto;
+}
+nav{
+  width: 80%;
+}
+main{
+  margin-top: -12vh
+}
+.navbar-nav span{
+  font-size: 0.9vw;
+}
+.logo{
+  width: 12vw;
+}
+.subtitle{
+  font-size: 2vw;
+}
+.navbar-nav{
+  width: 100%;
+}
+.navbar-nav a{
+  color:white;
+  text-decoration: none;
+}
+.navbar-nav a:hover{
+  background: #16168E;
+}
+.sections{
+  height: 100vh;
+}
+#carousel{
+  /* background-image: linear-gradient(#f0a027e4, #f0a027da), url("/img/retrato-empresarios-felices-masculinos-femeninos.webp");; */
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+}
+section .carousel__slogan{
+  height: 80vh;
+  padding-left: 6rem;
+  padding-top: 8vw;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+.carousel__title{
+  font-size: 4.8vw;
+}
+.carousel__subtitle{
+  font-size: 3.4vh;
+  width: 31.8vw;
+}
+.carousel__bold{
+  font-weight: bold;
+}
+.carousel__items{
+  gap:2rem
+}
+.carousel__item{
+  border: 1px dashed white;
+  border-radius: 30px;
+  font-size: 1.3rem;
+}
+#carousel .carousel{
+  z-index: 1;
+}
+#carousel .carousel-item{
+  height: 85vh;
+  padding-right: 4rem;
+}
+#carousel .carousel-item img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.forminfo__button{
+  height: 100%;
+  border-radius: 0px;
+}
+.forminfo__button {
+  font-size: 0.8rem;
+}
+.sections{
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  color: white;
+}
+main .section__left{
+  background: rgba(0, 0, 0, 0.236);
+  backdrop-filter: opacity(0.2);
+  padding-left: 10rem;
+  height: 100%;
+}
+.section__item{
+  display:flex;
+  flex-direction: column;
+  padding: 1.5rem 4.5rem;
+}
+.section__item svg{
+  width: 2.5vw!important;
+  height: auto;
+  margin-bottom: 0.7rem
+}
+.section__item svg path{
+  fill: #fff;
+}
+.section__info{
+  width: 80%;
+}
+.section__info h2{
+  font-size: 2.7vw;
+}
+.calendario{
+  margin: 5rem 0;
+}
+.calentadrio .carousel-item{
+  height: auto;
+}
+.calendario__superior{
+  padding: 0 5.5rem!important;
+  margin: 0;
+}
+.calendario__items{
+  padding: 0 5.5rem!important;
+}
+.calendario__container{
+  justify-content: center;
+  display: flex;
+}
+#carousel_four .calendario__item{
+  width: 20vw;
+}
+#carousel_three .calendario__item{
+  width: 30vw;
+}
+#carousel_one .calendario__item{
+  width: 100vw;
+}
+.calendario__item img{
+  height: 20vh;
+  object-fit: cover;
+  padding: 1rem;
+}
+.calendario__fecha{
+  background: #FF810A;
+  position: absolute;
+  right: 0;
+  top:0;
+  display: flex;
+  align-items: center;
+}
+.calendario__fecha p{
+  margin-bottom: 0;
+  padding: 0.5rem;
+}
+button#calendario__prev, button#calendario__next, div#calendario__dots {
+  position: relative;
+  color:#717171
+}
+#calendario__prev .calendario__icon, #calendario__next .calendario__icon{
+  padding: 0.5rem .8rem;
+  background: #e8e8e8;
+  border: 1px solid #d3d3d3;
+}
+#calendario__prev .calendario__icon:hover, #calendario__next .calendario__icon:hover{
+  background: #16168E;
+}
+#carouselExampleCaptions .card{
+  border-radius: 0px;
+}
+#carouselExampleCaptions .separador{
+  gap: 1rem
+}
+.calendario__controles {
+  display: flex;
+  gap: 3rem;
+}
+.footer__social div{
+  background: #d3d3d35e;
+  border-radius: 50%;
+}
+.footer__social i{
+  padding: 1.5rem 0.5rem;
+}
